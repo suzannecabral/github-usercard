@@ -1,5 +1,5 @@
 # Github User Cards
-
+ 
 In this project we are going to be accessing the GitHub API and building a social card based on the data we get back. The goal is to create a component based on the data we get when we send a GET request to the GitHub API (requesting your own data at first). The CSS and the base HTML is already done for you, you simply need to create the component function and connect the pieces.
 
 ## Need to know
@@ -22,50 +22,50 @@ In this project we are going to be accessing the GitHub API and building a socia
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your team lead as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [x] Create a forked copy of this project.
+* [x] Add your team lead as collaborator on Github.
+* [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your team lead as a reviewer on the pull-request.
-* [ ] Your team lead will count the project as complete by merging the branch back into `main` branch.
+* [x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
+* [x] Add your team lead as a reviewer on the pull-request.
+* [x] Your team lead will count the project as complete by merging the branch back into `main` branch.
 
 ### Project Setup
 
-* [ ] Navigate to the root of the project with your command line.
-* [ ] Run `npm install` to download any dependencies listed in the `package.json` file.
-* [ ] Run `npm start` to compile your project and launch a development server.
+* [x] Navigate to the root of the project with your command line.
+* [x] Run `npm install` to download any dependencies listed in the `package.json` file.
+* [x] Run `npm start` to compile your project and launch a development server.
 
 ### Axios Setup
 
 #### Option 1 (adding Axios via script element)
 
-* [ ] Include the script element linking the `axios` library in your HTML.
-* [ ] If you do not remember the code you can find it [here](https://github.com/axios/axios).
+* [x] Include the script element linking the `axios` library in your HTML.
+* [x] If you do not remember the code you can find it [here](https://github.com/axios/axios).
 
 #### Option 2 (installing Axios with npm)
 
-* [ ] Navigate to the root of the project with your command line.
-* [ ] Run `npm install axios` to download the dependency (it will be added to the `package.json` file).
-* [ ] At the top of the `GitHubCard/index.js` file, type `import axios from 'axios';`
+* [x] Navigate to the root of the project with your command line.
+* [x] Run `npm install axios` to download the dependency (it will be added to the `package.json` file).
+* [x] At the top of the `GitHubCard/index.js` file, type `import axios from 'axios';`
 
 ### Part 1: Requesting Data from the GitHub API
 
-* [ ] Follow the instructions found in the `GitHubCard/index.js` file to request data from the GitHub API.
+* [x] Follow the instructions found in the `GitHubCard/index.js` file to request data from the GitHub API.
 
 ### Part 2: Create the component function
 
-* Once you are receiving data from the GitHub API, take some time to study the data and the information it is giving you. You will create the HTML template you see in the GitHubCard/index.js file and plugging in the dynamic data you are getting from the GitHub API.
+* [x] Once you are receiving data from the GitHub API, take some time to study the data and the information it is giving you. You will create the HTML template you see in the GitHubCard/index.js file and plugging in the dynamic data you are getting from the GitHub API.
 * Once you complete the component, create a component based on your profile and add it to the DOM.
 
 ### Part 3: Your Friends
 
-* After you have successfully added your own card to the DOM, we will get a list of your followers and programmatically add cards for them as well. Follow the instructions in GitHubCard/index.js.
+* [x] After you have successfully added your own card to the DOM, we will get a list of your followers and programmatically add cards for them as well. Follow the instructions in GitHubCard/index.js.
 
 ### Part 4: Exit Ticket 
 
